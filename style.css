@@ -1,1 +1,48 @@
 /* Start coding here */
+.section-2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.card {
+    border-radius: 16px;
+    padding: 28px;
+    flex-basis: 387px;
+}
+
+.card .icon-wrap {
+    margin-bottom: 40px;
+    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.card-1 {
+    background-color: #D7E5F6;
+}
+
+.card-2 {
+    background-color: #D8E0FC;
+}
+
+.card-3 {
+    background-color: #E8DCF6;
+}
+
+.card .card-title {
+    color: #1A1A2C;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card .card-detail {
+    font-size: 16px;
+    font-weight: 500;
+}
