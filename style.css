@@ -267,16 +267,16 @@ input:hover,textarea:hover {
    }
 
 .footer {
+  margin: 30px;
+  padding: 32px 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 80px;
   background: #f6f6fb;
   color: #5f5f76;
   font-size: 1.1rem;
   font-weight: 500;
   width: 100%;
-  margin: 30px;
 }
 
 .footer-left {
@@ -293,6 +293,7 @@ input:hover,textarea:hover {
 }
 
 .footer-menu li {
+  display:flex;
   cursor: pointer;
   color: #1a1a2c;
   font-weight: 600;
