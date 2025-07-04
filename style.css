@@ -4,7 +4,7 @@ body {
     background-color: #F6F6FB;
 }
 
-.section-2, .section-3 {
+.section-card, .section-contact {
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -15,7 +15,8 @@ body {
 .card {
     border-radius: 16px;
     padding: 28px;
-    flex-basis: 387px;
+    width: 30%;
+    min-height: 250px;
 }
 
 .card .icon-wrap {
@@ -105,3 +106,14 @@ input:hover,textarea:hover {
     border: 1px solid #B5A9FF;
 }
 
+.btn-submit {
+ width: 100%;
+ border: 1px solid #1A1A2C;
+ border-radius: 16px;
+ padding: 16px 36px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #1A1A2C;
+ color: #fff;
+}
