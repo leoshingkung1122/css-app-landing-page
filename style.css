@@ -265,3 +265,41 @@ input:hover,textarea:hover {
     background-color: #1A1A2C;
     color: #fff;
    }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 80px;
+  background: #f6f6fb;
+  color: #5f5f76;
+  font-size: 1.1rem;
+  font-weight: 500;
+  width: 100%;
+  margin: 30px;
+}
+
+.footer-left {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu li {
+  cursor: pointer;
+  color: #1a1a2c;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.footer-menu li:hover {
+  color: #5e44ff;
+  text-decoration: underline;
+}
